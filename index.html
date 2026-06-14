@@ -163,15 +163,29 @@ margin:5px;
 
 /* ================= MOTIVATION BOX ================= */
 .motivation-box{
-background:rgba(255,255,255,0.15);
-backdrop-filter: blur(12px);
+background:rgba(0,0,0,0.45);
+backdrop-filter: blur(10px);
 padding:25px;
 border-radius:25px;
 max-width:500px;
 color:white;
-line-height:1.7;
-box-shadow:0 15px 40px rgba(0,0,0,0.2);
-animation:pop .8s ease;
+line-height:1.8;
+box-shadow:0 15px 40px rgba(0,0,0,0.3);
+font-weight:700;
+}
+
+.motivation-box h2{
+font-size:24px;
+margin-bottom:10px;
+color:#fff;
+text-shadow:2px 2px 10px rgba(0,0,0,0.6);
+}
+
+.motivation-box p{
+font-size:16px;
+font-weight:700;
+color:#fff;
+text-shadow:1px 1px 6px rgba(0,0,0,0.6);
 }
 
 @keyframes pop{
@@ -219,7 +233,7 @@ color:white;
 
 <!-- LOCK -->
 <div class="page active" id="lock">
-<div class="title">💖 Sumaiya 💖</div>
+<div class="title">💖 I loveeee yoouuuu pakhiiii💖</div>
 <div class="sub">Enter Password</div>
 <input id="pass" class="password" type="password">
 <button class="btn" onclick="unlock()">Unlock</button>
@@ -238,15 +252,16 @@ color:white;
 <!-- SLIDE 2 -->
 <div class="page" id="slide2">
 <div class="gift-box">
-<h2>🎁 Gifts</h2>
+<h2>🎁 Gifts for you,open both of them.</h2>
 
 <div>
 <span class="gift" onclick="gift1()">🎁</span>
 <span class="gift" onclick="gift2()">🎀</span>
 </div>
 
-<div id="g1" class="hidden">You are special 💖</div>
-<div id="g2" class="hidden">I LOVE YOU ❤️</div>
+<div id="g1" class="hidden">You are so special in my life &stay happy always 
+  with me💖</div>
+<div id="g2" class="hidden">I love you Sumaiya,I am so lucky that i have you❤️</div>
 
 <button class="btn" onclick="go('slide2','slide3')">Next</button>
 </div>
@@ -257,9 +272,9 @@ color:white;
 <h2>📸 Memories</h2>
 
 <div class="memory">
-<img src="images/1.jpg">
-<img src="images/2.jpg">
-<img src="images/3.jpg">
+<img src="1.jpg">
+<img src="2.jpg">
+<img src="3.jpg">>
 </div>
 
 <button class="btn" onclick="go('slide3','slide4')">Next</button>
@@ -274,15 +289,15 @@ color:white;
 
 💖 You are strong and beautiful.<br>
 ✨ Never give up on your dreams.<br>
-🌸 You shine even in dark times.<br>
+🌸 I believe you will becomegreat.<br>
 🦋 Your smile is powerful.<br>
 💫 You are enough.<br>
 🌷 Keep going always.<br>
 ❤️ I believe in you.<br>
-🌙 Your future is bright.<br>
+🌙 Your future is bright In sha Allah.<br>
 💖 Stay kind & strong.<br>
-✨ I’m always with you.
-
+✨ I’m always with you,If the world against you then i am against the world
+.<br>
 </div>
 
 <button class="btn" onclick="go('slide4','slide5')" style="margin-top:15px;">
@@ -300,9 +315,9 @@ Next 😆
 <div class="smile-emoji">😁😂😍🥰✨</div>
 
 <p class="smile-text">
-Your smile is everything 💖<br><br>
+Your smile is everything for me 💖<br><br>
 Please smile right now 😊<br><br>
-You look the most beautiful when you smile ✨
+You look the most beautiful person when you smile ✨
 </p>
 
 </div>
@@ -314,7 +329,8 @@ Last 💌
 
 <!-- FINAL -->
 <div class="page" id="slide6">
-<h1>❤️ I LOVE YOU ❤️</h1>
+<h1>❤️ You are so pretty my baby,pakhi.
+  Sumu,Life e onk boro kisu hou sobsomoi amr doa ase tmr sathy.❤️</h1>
 <button class="btn" onclick="confetti()">Finish 🎉</button>
 </div>
 
